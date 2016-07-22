@@ -1,0 +1,22 @@
+{
+    "name": "jasekiw/time-tracker",
+    "description": "Tracks execution time",
+    "type": "library",
+    "authors": [
+        {
+            "name": "jasekiw",
+            "email": "jasongallavin@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4"
+  },
+    "autoload": {
+        "psr-4": {
+          "jasekiw\\timeTracker\\": "src/"
+        }
+    }
+}
